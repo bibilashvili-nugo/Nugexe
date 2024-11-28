@@ -1,5 +1,32 @@
-/dist
-/node_modules
+# Node modules
+/node_modules/
 
-.env
+# Compiled JavaScript files
+/dist/
+/build/
+
+# TypeScript output
+*.tsbuildinfo
+
+# NPM logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor folders and files
+/.vscode/
+/.idea/
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# npm package lock files for a clean install
+package-lock.json
+
+# Exclude test coverage and other temporary files
+coverage/
+*.tgz
+
+# Tsup output
+/dist/

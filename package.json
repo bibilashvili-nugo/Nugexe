@@ -1,24 +1,17 @@
 {
   "name": "nugexe",
-  "version": "0.0.1",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "homepage": "https://google.com",
-  "repository": {
-    "url": "https://github.com/bibilashvili-nugo/Nugexe"
-  },
+  "version": "0.0.0",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsup"
+    "build": "babel src --out-dir dist"
   },
-  "keywords": [
-    "FrameWork"
-  ],
-  "author": "Nugzar Bibilashvili",
-  "license": "MIT",
-  "description": "JS FrameWork",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "devDependencies": {
-    "tsup": "^8.3.5",
-    "typescript": "^5.7.2"
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
   }
 }
