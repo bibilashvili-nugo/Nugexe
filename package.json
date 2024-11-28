@@ -1,0 +1,24 @@
+{
+  "name": "nugexe",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "https://github.com/bibilashvili-nugo/Nugexe"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "FrameWork"
+  ],
+  "author": "Nugzar Bibilashvili",
+  "license": "MIT",
+  "description": "JS FrameWork",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
