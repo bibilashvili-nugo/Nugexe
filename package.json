@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "nugexe": "npm run build && http-server ./dist -o"
   },
   "keywords": [],
   "author": "",
